@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>術科考試抽題</title>
+<link rel="manifest" href="manifest.json"><link rel="stylesheet" href="style.css">
+<meta name="theme-color" content="#111827"><link rel="apple-touch-icon" href="icons/icon-192.png">
+</head><body>
+<main class="wrap">
+<header><h1>術科考試抽題</h1><div class="version">v0.3</div></header>
+<section id="home" class="card">
+<div id="ready" class="status">尚未匯入題庫</div>
+<label>考試時間（倒數）</label>
+<div class="timer-set"><button id="minus">−</button><div id="duration">01:30</div><button id="plus">＋</button></div>
+<button id="start" class="primary">開始考試</button>
+<button id="teacherBtn" class="ghost">教師設定</button>
+</section>
+<section id="exam" class="card hidden">
+<div id="countdown" class="countdown">01:30</div>
+<div class="qbox"><h2>第一大題</h2><div id="q1no" class="qno"></div><div id="q1" class="question"></div></div>
+<div class="qbox"><h2>第二大題</h2><div id="q2no" class="qno"></div><div id="q2" class="question"></div></div>
+<div id="unit" class="unit"></div>
+</section>
+<section id="teacher" class="card hidden">
+<h2>教師設定</h2><div id="summary" class="summary"></div>
+<div class="stack"><button id="template">下載空白範本 .xlsx</button><label class="filebtn">匯入題庫 .xlsx<input id="importFile" type="file" accept=".xlsx"></label><button id="exportBtn">匯出目前題庫 .xlsx</button><button id="back">返回</button></div>
+<p class="hint">Excel 欄位：大題｜單元｜題號｜題目。題庫只儲存在這台裝置。</p>
+</section>
+</main>
+<script src="jszip.min.js"></script><script src="xlsx-lite.js"></script><script src="app.js"></script>
+</body></html>
