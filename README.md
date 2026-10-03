@@ -10,9 +10,25 @@
 
 ## 操作畫面
 
-> README 僅使用不含正式考題的畫面；抽題畫面中的題目使用範例內容去識別化。
+> 以下為實際操作畫面；抽題畫面中的正式考題已替換成範例內容。
 
-![去識別化 GUI 操作畫面](docs/gui-overview.jpg)
+<table>
+<tr>
+<td align="center"><strong>考試首頁</strong></td>
+<td align="center"><strong>教師設定</strong></td>
+<td align="center"><strong>抽題畫面</strong></td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/Vci8U6T.jpg" width="250" alt="考試首頁"></td>
+<td><img src="https://i.imgur.com/z7Qwfzp.jpg" width="250" alt="教師設定"></td>
+<td><img src="https://i.imgur.com/PDVNZtO.jpg" width="250" alt="去識別化抽題畫面"></td>
+</tr>
+<tr>
+<td align="center">設定倒數時間並開始考試</td>
+<td align="center">管理題庫及設定抽題規則</td>
+<td align="center">顯示抽出的各大題並開始倒數</td>
+</tr>
+</table>
 
 ## 題庫格式
 
