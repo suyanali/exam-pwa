@@ -7,10 +7,10 @@
 <meta name="theme-color" content="#111827"><link rel="apple-touch-icon" href="icons/icon-192.png">
 </head><body>
 <main class="wrap">
-<header><h1>術科考試抽題</h1><div class="version">v0.5</div></header>
+<header><h1>術科考試抽題</h1><div class="version">v0.6</div></header>
 <section id="home" class="card"><div id="pwaStatus" class="pwa-status">正在檢查離線功能…</div><button id="installBtn" class="install hidden">安裝 App</button><div id="iosHint" class="hintbox hidden">iPhone / iPad：請使用 Safari 的「分享」→「加入主畫面」安裝。</div><div id="ready" class="status">尚未匯入題庫</div><label>考試時間（倒數）</label><div class="timer-set"><button id="minus">−</button><div id="duration">01:30</div><button id="plus">＋</button></div><button id="start" class="primary">開始考試</button><button id="teacherBtn" class="ghost">教師設定</button></section>
 <section id="exam" class="card hidden"><div id="countdown" class="countdown">01:30</div><div id="questions"></div></section>
-<section id="teacher" class="card hidden"><h2>教師設定</h2><div id="summary" class="summary"></div><div id="rulesBox" class="rules"></div><div class="stack"><button id="template">下載空白範本 .xlsx</button><label class="filebtn">匯入題庫 .xlsx<input id="importFile" type="file" accept=".xlsx"></label><button id="exportBtn">匯出目前題庫 .xlsx</button><button id="clearBtn" class="danger">清除本機題庫與設定</button><button id="back">返回</button></div><p class="hint">Excel 欄位：大題｜單元｜題號｜題目。大題數量會依題庫自動判斷；「單元」只用於配對，不會顯示給學生。題庫與設定只儲存在此裝置。</p></section>
+<section id="teacher" class="card hidden"><h2>教師設定</h2><div id="summary" class="summary"></div><div id="rulesBox" class="rules"></div><div class="update-box"><h3>版本與更新</h3><div id="updateStatus">目前版本：v0.6</div><button id="updateBtn" class="hidden">更新至最新版</button><p class="hint">若目前版本使用正常，不需要特別更新。有需要使用新版功能，或目前版本遇到問題時，再連上網路更新即可。更新不會刪除題庫與抽題設定。</p></div><div class="stack"><button id="template">下載空白範本 .xlsx</button><label class="filebtn">匯入題庫 .xlsx<input id="importFile" type="file" accept=".xlsx"></label><button id="exportBtn">匯出目前題庫 .xlsx</button><button id="clearBtn" class="danger">清除本機題庫與設定</button><button id="back">返回</button></div><p class="hint">Excel 欄位：大題｜單元｜題號｜題目。大題數量會依題庫自動判斷；「單元」只用於配對，不會顯示給學生。題庫與設定只儲存在此裝置。</p></section>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script><script src="xlsx-lite.js"></script><script src="app.js"></script>
 </body></html>
